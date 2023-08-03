@@ -1,0 +1,80 @@
+/* .menu {
+    size: 'small';
+    color: rgb(7, 0, 0);
+    background-color: #8ad0e7;
+    justify-content: end;
+}
+
+.blog{
+    font-size: x-large ;
+    font-family:cursive;
+    font-weight: 700;
+    letter-spacing: 0.7em;
+    margin-right: auto !important;
+}
+
+.css-dev-only-do-not-override-1me4733.ant-menu-light .ant-menu-item:hover:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected){
+    color: rgba(250, 245, 245, 0.88) !important
+  }
+
+  .blog-header {
+    background-color: #8ad0e7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-text {
+    color: white;
+    margin-left: 15px;
+    font-size: x-large ;
+    font-family:cursive;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    margin-right: auto !important;
+  }
+  
+  .header-menu {
+    margin-right: 24px;
+  }
+
+  .header {
+    background-color: white !important;
+} */
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8ad0e7;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.header-menu .ant-menu-item {
+  margin-left: 24px;
+}
+
+.logo-text {
+  color: #fff;
+  margin: 0;
+}
+
+.logout-button {
+  margin-left: 24px;
+}
+
+.login-button {
+  margin-left: 24px;
+}
+
+.css-dev-only-do-not-override-1me4733.ant-menu-light .ant-menu-item:hover:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected){
+  color: rgba(250, 245, 245, 0.88) !important
+}
