@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#auth-form {
+  margin-top: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+}
+
+#protected-content {
+  margin-top: 20px;
+}
