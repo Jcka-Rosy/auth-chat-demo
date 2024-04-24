@@ -7,7 +7,7 @@ import './App.css';
 import Chat from './Chat';
 import PollControlButton from './PollControlButton';
 
-const BASE_URL = 'http://localhost:3010';
+const BASE_URL = 'https://auth-chat-demo-frontend-4q2h.vercel.app';
 
 function App() {
   const [username, setUsername] = useState('');
