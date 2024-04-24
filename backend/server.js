@@ -76,7 +76,9 @@ io.on('connection', (socket) => {
   });
 });
 
-mongoose.connect('mongodb://localhost:27017/auth-demo', { useNewUrlParser: true, useUnifiedTopology: true });
+// mongoose.connect('mongodb://localhost:27017/auth-demo', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://jesicarosy157:NlAPRlw84aSsvdpI@cluster0.ipih3bi.mongodb.net/auth-demo', { useNewUrlParser: true, useUnifiedTopology: true })
+.then((res)=>console.log('Connect')).catch((er)=>console.log('not Connect',er.message))
 
 const User = mongoose.model('User', {
   username: String,

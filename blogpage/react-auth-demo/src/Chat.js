@@ -24,7 +24,7 @@ const Chat = () => {
     };
   }, [joinedRoom]);
 
-  const joinRoom = () => {
+  const joinRoom = () => { 
     if (selectedRoom && joinedRoom !== selectedRoom) {
       // Leave the current room before joining a new one
       if (joinedRoom) {
